@@ -31,3 +31,7 @@ http://localhost:3000
 
 - Open https://github.com/apps/q-smith-gitapp
 - Click "Install" button
+
+# Simulate Receiving Webhooks
+
+node_modules/.bin/probot receive -e <event-name> -p <path-to-fixture> ./index.js
