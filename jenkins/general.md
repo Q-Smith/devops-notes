@@ -7,7 +7,7 @@ docker pull jenkins/jenkins:lts
 # Run Master Node
 
 ```bash
-docker run --name jenkins-master -p 8080:8080 -p 53801:53801 -p 50000:50000 jenkins/jenkins:lts
+docker run -d --name jenkins-master -p 8080:8080 -p 53801:53801 -p 50000:50000 jenkins/jenkins:lts
 ```
 
 - Open http://localhost:8080
