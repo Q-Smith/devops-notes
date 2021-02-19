@@ -1,0 +1,15 @@
+---
+
+# docker network inspect ops_tools_net
+- name: Create a Docker Network
+  community.docker.docker_network:
+    name: ops_tools_net
+    driver: bridge
+    attachable: yes
+    ipam_config:
+      - subnet: 172.20.0.0/16
+        gateway: 172.20.0.1
+    driver_options:
+      #com.docker.network.bridge.name: docker_gwbridge
+      com.docker.network.bridge.enable_icc: false
+      com.docker.network.bridge.enable_ip_masquerade: true

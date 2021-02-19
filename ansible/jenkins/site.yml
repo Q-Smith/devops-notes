@@ -1,8 +1,0 @@
----
-- hosts: jenkins
-  connection: local
-  become: True
-
-- roles:
-    - role: apt
-      tags: apt
