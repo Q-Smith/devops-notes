@@ -1,0 +1,13 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.115.121.1.50,ou=syntaxCheckers,cn=system,ou=schema
+entryCSN: 20210221034856.460000Z#000000#000#000000
+m-oid: 1.3.6.1.4.1.1466.115.121.1.50
+objectclass: metaSyntaxChecker
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034858.446Z
+creatorsname: uid=admin,ou=system
+entryUUID: 155ac09b-4c4c-48ce-9e37-1ac069bf380b
+m-fqcn: org.apache.directory.api.ldap.model.schema.syntaxCheckers.TelephoneNumbe
+ rSyntaxChecker
+entryParentId: 403463d2-49d0-4660-937c-b9f83be6fa3c

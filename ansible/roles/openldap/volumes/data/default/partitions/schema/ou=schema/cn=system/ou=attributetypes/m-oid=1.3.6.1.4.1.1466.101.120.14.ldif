@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.101.120.14,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20210221034856.125000Z#000000#000#000000
+m-usage: DSA_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: FALSE
+entryUUID: 932e649c-ba32-4a5f-a84a-56e9bb9edd0a
+m-description: RFC2252: supported SASL mechanisms
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.1466.101.120.14
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.079Z
+m-name: supportedSASLMechanisms
+entryParentId: 08f7ed2b-d78a-4237-8c23-4c7885a948dd

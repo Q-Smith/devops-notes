@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.8.1.15,ou=attributeTypes,cn=pwdpolicy,ou=schema
+entryCSN: 20210221034855.734000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: 8825c90a-94d8-4058-8fe8-d83bc7c337e5
+m-equality: booleanMatch
+m-oid: 1.3.6.1.4.1.42.2.27.8.1.15
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20210221034903.193Z
+m-name: pwdSafeModify
+entryParentId: c57b5991-e26e-4b44-b872-5cc5daabd4ef

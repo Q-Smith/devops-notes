@@ -1,0 +1,23 @@
+version: 1
+dn: m-oid=1.2.840.113549.1.9.1,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.401000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: FALSE
+entryUUID: a206e046-d65e-4ce6-90ae-7694e5a86153
+m-substr: caseIgnoreIA5SubstringsMatch
+m-equality: caseIgnoreIA5Match
+m-description: RFC2459: legacy attribute for email addresses in DNs
+m-obsolete: FALSE
+m-oid: 1.2.840.113549.1.9.1
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034903.165Z
+m-name: email
+m-name: emailAddress
+m-name: pkcs9email
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

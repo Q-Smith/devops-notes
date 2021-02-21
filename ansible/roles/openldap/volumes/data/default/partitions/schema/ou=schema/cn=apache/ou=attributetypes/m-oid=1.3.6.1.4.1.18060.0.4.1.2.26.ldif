@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.26,ou=attributeTypes,cn=apache,ou=schema
+entryCSN: 20210221034853.090000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.59
+m-singlevalue: FALSE
+entryUUID: ad4faea8-c391-4cc8-acfb-bc4aaf61ce1f
+m-equality: directoryStringFirstComponentMatch
+m-description: Trigger specification that applies to a single entry
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.26
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034900.224Z
+m-name: entryTriggerSpecification
+entryParentId: 745b58c2-27c2-4137-9067-cb8815eebf00

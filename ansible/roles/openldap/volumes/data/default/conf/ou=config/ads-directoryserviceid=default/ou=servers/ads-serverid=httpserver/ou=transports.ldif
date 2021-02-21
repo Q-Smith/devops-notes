@@ -1,0 +1,10 @@
+dn: ou=transports,ads-serverId=httpServer,ou=servers,ads-directoryServiceId=defa
+ ult,ou=config
+entryCSN: 20210221034851.634000Z#000000#000#000000
+ou: transports
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034851.634Z
+creatorsName: uid=admin,ou=system
+entryUUID: 1a7e8517-bbf8-46e3-a41f-fa97a2324378
+entryParentId: 27e2a928-f926-44e2-9642-89db5bb0c152

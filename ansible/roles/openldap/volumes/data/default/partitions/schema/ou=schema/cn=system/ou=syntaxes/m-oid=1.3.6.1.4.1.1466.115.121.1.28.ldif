@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.115.121.1.28,ou=syntaxes,cn=system,ou=schema
+entrycsn: 20100111202214.878000Z#000000#000#000000
+m-description: JPEG
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaSyntax
+m-oid: 1.3.6.1.4.1.1466.115.121.1.28
+createtimestamp: 20100111145217Z
+creatorsname: uid=admin,ou=system
+x-not-human-readable: TRUE
+entryUUID: f2bdb042-ec2c-4aa5-a89a-5ef99cc1dc36
+entryParentId: 81c45d56-5248-4ac9-8cd4-26e8775d224a

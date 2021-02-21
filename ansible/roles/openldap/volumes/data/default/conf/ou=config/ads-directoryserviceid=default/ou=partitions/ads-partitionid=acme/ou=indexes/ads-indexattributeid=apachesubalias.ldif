@@ -1,0 +1,15 @@
+dn: ads-indexAttributeId=apacheSubAlias,ou=indexes,ads-partitionId=acme,ou=parti
+ tions,ads-directoryServiceId=default,ou=config
+ads-indexHasReverse: FALSE
+entryCSN: 20210221034948.363000Z#000000#001#000000
+objectClass: ads-index
+objectClass: top
+objectClass: ads-jdbmIndex
+objectClass: ads-base
+createTimestamp: 20210221034948.363Z
+creatorsName:: MC45LjIzNDIuMTkyMDAzMDAuMTAwLjEuMT0gYWRtaW4gLDIuNS40LjExPSBzeXN0Z
+ W0g
+ads-indexAttributeId: apacheSubAlias
+ads-enabled: TRUE
+entryUUID: 55404942-318a-44ec-8312-77e4ab22c00b
+entryParentId: 7d4a8233-426a-4249-9503-d2d50fbf983e

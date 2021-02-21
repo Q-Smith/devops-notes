@@ -1,0 +1,10 @@
+version: 1
+dn: ou=nameForms,cn=mozilla,ou=schema
+entryCSN: 20210221034855.281000Z#000000#000#000000
+ou: nameforms
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034903.243Z
+creatorsname: uid=admin,ou=system
+entryUUID: bf14fe39-1889-4908-8e54-cea074f1a42c
+entryParentId: d8963fdd-3580-4e3e-bc7b-8915e780de15

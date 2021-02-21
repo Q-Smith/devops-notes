@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.4.23,ou=attributeTypes,cn=dhcp,ou=schema
+entryCSN: 20210221034854.865000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.24
+m-singlevalue: TRUE
+entryUUID: 229c6fd3-f0aa-4770-836a-d8bb29ad98d7
+m-equality: integerMatch
+m-description: This is the time the current lease for an address expires.
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.4.23
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.165Z
+m-name: dhcpExpirationTime
+entryParentId: 33336552-6bdb-46ae-baf8-37be6af7a316

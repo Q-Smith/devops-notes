@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.412,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.519000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: a54daf7c-d59e-4c3a-85af-ccb0a37c85ac
+m-equality: booleanMatch
+m-description: Whether to verify the body checksum
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.412
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20210221034903.614Z
+m-name: ads-krbBodyChecksumVerified
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

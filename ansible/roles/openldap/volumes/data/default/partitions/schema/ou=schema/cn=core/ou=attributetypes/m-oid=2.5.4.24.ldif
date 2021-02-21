@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.5.4.24,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.432000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.36
+m-singlevalue: FALSE
+entryUUID: b036938a-fabb-408a-b981-b757e023f7e3
+m-substr: numericStringSubstringsMatch
+m-equality: numericStringMatch
+m-description: RFC2256: X.121 Address
+m-obsolete: FALSE
+m-oid: 2.5.4.24
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.199Z
+m-name: x121Address
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

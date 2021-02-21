@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.1.2,ou=attributeTypes,cn=nis,ou=schema
+entryCSN: 20210221034855.489000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 9813e21d-7b8b-4471-b086-f333a0885d1d
+m-substr: caseIgnoreIA5SubstringsMatch
+m-equality: caseIgnoreIA5Match
+m-description: The GECOS field; the common name
+m-obsolete: FALSE
+m-oid: 1.3.6.1.1.1.1.2
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034904.036Z
+m-name: gecos
+entryParentId: 46bf914f-4660-425f-91c6-eb88aec25c01

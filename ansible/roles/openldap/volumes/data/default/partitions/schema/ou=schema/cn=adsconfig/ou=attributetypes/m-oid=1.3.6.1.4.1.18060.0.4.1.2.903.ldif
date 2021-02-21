@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.903,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.709000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: 39078f44-ed6a-4c70-a25a-013fa6c31838
+m-equality: integerMatch
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.903
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20210221034903.633Z
+m-name: ads-pwdInHistory
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

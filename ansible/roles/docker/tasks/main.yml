@@ -11,5 +11,5 @@
         gateway: 172.20.0.1
     driver_options:
       #com.docker.network.bridge.name: docker_gwbridge
-      com.docker.network.bridge.enable_icc: false
+      com.docker.network.bridge.enable_icc: true # inter-container communication
       com.docker.network.bridge.enable_ip_masquerade: true

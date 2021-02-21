@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.306,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.454000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.44
+m-ordering: caseExactOrderingMatch
+entryUUID: 87d123cb-e17e-4305-a48c-0bb727939fe2
+m-substr: caseExactSubstringsMatch
+m-equality: caseExactMatch
+m-description: The realms serviced by this SASL host
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.306
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20210221034859.408Z
+m-name: ads-saslRealms
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

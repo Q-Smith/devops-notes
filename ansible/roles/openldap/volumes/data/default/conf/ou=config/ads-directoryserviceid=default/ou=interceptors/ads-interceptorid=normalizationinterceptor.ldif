@@ -1,0 +1,15 @@
+dn: ads-interceptorId=normalizationInterceptor,ou=interceptors,ads-directoryServ
+ iceId=default,ou=config
+entryCSN: 20210221034851.084000Z#000000#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+createTimestamp: 20210221034851.084Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: d74169b0-e515-4c87-b73f-7ec9976cec12
+ads-interceptorclassname: org.apache.directory.server.core.normalization.Normali
+ zationInterceptor
+ads-interceptororder: 1
+ads-interceptorid: normalizationInterceptor
+entryParentId: a2f5db6d-78df-4e36-baa9-4bc1b0431aff

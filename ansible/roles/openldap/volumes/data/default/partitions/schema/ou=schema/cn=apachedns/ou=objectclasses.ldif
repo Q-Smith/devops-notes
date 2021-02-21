@@ -1,0 +1,10 @@
+version: 1
+dn: ou=objectClasses,cn=apachedns,ou=schema
+entryCSN: 20210221034853.384000Z#000000#000#000000
+ou: objectclasses
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034901.001Z
+creatorsname: uid=admin,ou=system
+entryUUID: 4029d4be-fadf-4302-9e43-4dcf80409076
+entryParentId: 95cbd7b1-8af9-4745-9101-e8c9bc2e45e6

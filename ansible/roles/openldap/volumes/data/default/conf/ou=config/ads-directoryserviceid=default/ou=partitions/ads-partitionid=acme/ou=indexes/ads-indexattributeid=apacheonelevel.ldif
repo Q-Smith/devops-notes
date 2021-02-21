@@ -1,0 +1,15 @@
+dn: ads-indexAttributeId=apacheOneLevel,ou=indexes,ads-partitionId=acme,ou=parti
+ tions,ads-directoryServiceId=default,ou=config
+ads-indexHasReverse: FALSE
+entryCSN: 20210221034948.312000Z#000000#001#000000
+objectClass: ads-index
+objectClass: top
+objectClass: ads-jdbmIndex
+objectClass: ads-base
+createTimestamp: 20210221034948.312Z
+creatorsName:: MC45LjIzNDIuMTkyMDAzMDAuMTAwLjEuMT0gYWRtaW4gLDIuNS40LjExPSBzeXN0Z
+ W0g
+ads-indexAttributeId: apacheOneLevel
+ads-enabled: TRUE
+entryUUID: f9339fad-384b-4fc2-ae0d-dcc015428c04
+entryParentId: 7d4a8233-426a-4249-9503-d2d50fbf983e

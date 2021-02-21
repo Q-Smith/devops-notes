@@ -15,9 +15,11 @@
     networks:
       - name: ops_tools_net
     ports:
-      - '8080:8080' # Web UI
+      - '9020:9020' # Web UI
       - '50000:50000' # Remote API
       - '53801:53801' # Random SSH Port
     volumes:
       #- jenkins-docker-certs:/certs/client
       - jenkins-data:/var/jenkins_home
+    env:
+      JENKINS_OPTS: '--httpPort=9020'

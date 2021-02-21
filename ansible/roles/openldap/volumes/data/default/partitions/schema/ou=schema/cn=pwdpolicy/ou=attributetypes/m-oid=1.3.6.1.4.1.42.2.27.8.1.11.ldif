@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.8.1.11,ou=attributeTypes,cn=pwdpolicy,ou=schema
+entryCSN: 20210221034855.727000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+m-ordering: integerOrderingMatch
+entryUUID: eaa2d3cd-8272-4161-883e-8ba592bd8927
+m-equality: integerMatch
+m-oid: 1.3.6.1.4.1.42.2.27.8.1.11
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20210221034902.295Z
+m-name: pwdMaxFailure
+entryParentId: c57b5991-e26e-4b44-b872-5cc5daabd4ef

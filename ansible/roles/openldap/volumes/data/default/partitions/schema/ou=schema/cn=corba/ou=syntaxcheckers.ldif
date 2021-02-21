@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=corba,ou=schema
+entryCSN: 20210221034854.290000Z#000000#000#000000
+ou: syntaxcheckers
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034902.340Z
+creatorsname: uid=admin,ou=system
+entryUUID: e99898fd-0481-4e69-b1b4-b9ef8fe1336b
+entryParentId: d1ea6daf-e5f9-437b-af2e-934180e26e2f

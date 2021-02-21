@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.5.4.17,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.416000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: FALSE
+entryUUID: 35e77bb6-9228-42ad-a898-072f57fac386
+m-substr: caseIgnoreSubstringsMatch
+m-equality: caseIgnoreMatch
+m-description: RFC2256: postal code
+m-obsolete: FALSE
+m-oid: 2.5.4.17
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034858.707Z
+m-name: postalCode
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

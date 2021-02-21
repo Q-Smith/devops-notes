@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=2.5.4.47,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.476000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.21
+m-singlevalue: FALSE
+entryUUID: 06fa3af8-5c68-4448-991d-4a26bbed6a0c
+m-description: RFC2256: enhanced search guide
+m-obsolete: FALSE
+m-oid: 2.5.4.47
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.569Z
+m-name: enhancedSearchGuide
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

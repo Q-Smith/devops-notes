@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.13,ou=attributeTypes,cn=apache,ou=schema
+entryCSN: 20210221034853.051000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: TRUE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: fa2e568e-0b58-4e4a-878f-5d9137351532
+m-equality: integerMatch
+m-description: The number of subordinates for this entry
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.13
+createTimestamp: 20210221034902.061Z
+m-name: nbSubordinates
+entryParentId: 745b58c2-27c2-4137-9067-cb8815eebf00

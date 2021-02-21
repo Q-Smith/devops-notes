@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.2.16,ou=attributeTypes,cn=apachemeta,ou=schema
+entryCSN: 20210221034853.788000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: 5e38cf79-3a3a-439e-bf96-9f88dd72c5ef
+m-equality: booleanMatch
+m-description: The attribute is collective
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 1.3.6.1.4.1.18060.0.4.0.2.16
+createTimestamp: 20210221034859.573Z
+m-name: m-collective
+entryParentId: 24f978a0-627b-4221-9e7d-d8a5b3fbe41b

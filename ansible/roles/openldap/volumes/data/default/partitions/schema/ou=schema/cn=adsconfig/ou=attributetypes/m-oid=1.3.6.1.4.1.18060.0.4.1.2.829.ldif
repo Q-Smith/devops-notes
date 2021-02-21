@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.829,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.673000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+m-ordering: integerOrderingMatch
+entryUUID: 0099c3bb-2e87-4923-bc3f-fdf0b00d01dc
+m-equality: integerMatch
+m-description: size limit imposed during replication refreshOnly phase
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.829
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034859.944Z
+m-name: ads-replSearchSizeLimit
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.5.18.7,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20210221034856.161000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.38
+m-singlevalue: FALSE
+entryUUID: 25aae348-327a-4ba0-84e2-e5a6c758db40
+m-equality: objectIdentifierMatch
+m-description: RFC3671: allows particular collective attributes to be excluded f
+ rom an entry
+m-obsolete: FALSE
+m-oid: 2.5.18.7
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034903.450Z
+m-name: collectiveExclusions
+entryParentId: 08f7ed2b-d78a-4237-8c23-4c7885a948dd

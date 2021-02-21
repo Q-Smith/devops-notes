@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.8.1.4,ou=attributeTypes,cn=pwdpolicy,ou=schema
+entryCSN: 20210221034855.767000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+m-ordering: integerOrderingMatch
+entryUUID: 019c022f-0f39-4502-b0d8-b4c559dde34e
+m-equality: integerMatch
+m-oid: 1.3.6.1.4.1.42.2.27.8.1.4
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20210221034903.109Z
+m-name: pwdInHistory
+entryParentId: c57b5991-e26e-4b44-b872-5cc5daabd4ef

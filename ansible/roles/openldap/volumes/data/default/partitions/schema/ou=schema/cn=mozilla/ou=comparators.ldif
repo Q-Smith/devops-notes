@@ -1,0 +1,10 @@
+version: 1
+dn: ou=comparators,cn=mozilla,ou=schema
+entryCSN: 20210221034855.265000Z#000000#000#000000
+ou: comparators
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034901.106Z
+creatorsname: uid=admin,ou=system
+entryUUID: 0bb39ff2-ad61-4b4d-b668-603f7d20c930
+entryParentId: d8963fdd-3580-4e3e-bc7b-8915e780de15

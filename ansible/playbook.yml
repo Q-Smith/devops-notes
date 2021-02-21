@@ -4,5 +4,7 @@
     ansible_python_interpreter: /Users/quinnsmith/.pyenv/shims/python3
   roles:
     - docker
+    - openldap
     - keycloak
-    - jenkins
+    #- jenkins
+    #- nexus

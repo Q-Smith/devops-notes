@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.4203.1.3.5,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20210221034856.138000Z#000000#000#000000
+m-usage: DSA_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.38
+m-singlevalue: FALSE
+entryUUID: aabee320-5dd9-4c6e-a329-ea1dff9a6c4b
+m-equality: objectIdentifierMatch
+m-description: RFC3674: features supported by the server
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.4203.1.3.5
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.364Z
+m-name: supportedFeatures
+entryParentId: 08f7ed2b-d78a-4237-8c23-4c7885a948dd

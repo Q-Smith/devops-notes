@@ -1,0 +1,10 @@
+version: 1
+dn: ou=attributeTypes,cn=krb5kdc,ou=schema
+entryCSN: 20210221034855.172000Z#000000#000#000000
+ou: attributetypes
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034859.615Z
+creatorsname: uid=admin,ou=system
+entryUUID: 79ea6c29-8fc2-4f64-ba52-52a4ab0de0dc
+entryParentId: 1ba812c6-5779-4281-960e-653c22e054bb

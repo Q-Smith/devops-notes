@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.4203.1.4.1,ou=objectClasses,cn=system,ou=schema
+entryCSN: 20210221034856.377000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 26ef210b-658c-4ed2-bd1d-2f37e681b405
+m-may: cn
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-description: OpenLDAP Root DSE object
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.4203.1.4.1
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.613Z
+m-name: OpenLDAProotDSE
+m-name: LDAProotDSE
+entryParentId: 25e63c3b-4cee-442d-90d5-22dc735166b2

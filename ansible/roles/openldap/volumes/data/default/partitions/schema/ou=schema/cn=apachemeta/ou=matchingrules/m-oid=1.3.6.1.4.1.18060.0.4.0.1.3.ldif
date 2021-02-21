@@ -1,0 +1,15 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.1.3,ou=matchingRules,cn=apachemeta,ou=schema
+entryCSN: 20210221034853.895000Z#000000#000#000000
+m-description: A matching rule matching dit structure rule attributes
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.0.1.3
+objectclass: metaMatchingRule
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034859.396Z
+m-name: supDITStructureRuleMatch
+creatorsname: uid=admin,ou=system
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.17
+entryUUID: 6756d4b7-8e41-4fe3-a2ec-86756b374103
+entryParentId: 09b6ebed-0571-464f-96d7-c96ab0c30fe7

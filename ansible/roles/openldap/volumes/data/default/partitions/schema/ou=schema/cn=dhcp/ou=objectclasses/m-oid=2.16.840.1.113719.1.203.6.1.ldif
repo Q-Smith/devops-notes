@@ -1,0 +1,27 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.6.1,ou=objectClasses,cn=dhcp,ou=schema
+entryCSN: 20210221034854.978000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: aebd2ec5-c210-469a-ad36-1dbe2f8dd31b
+m-may: dhcpSecondaryDN
+m-may: dhcpSharedNetworkDN
+m-may: dhcpSubnetDN
+m-may: dhcpGroupDN
+m-may: dhcpHostDN
+m-may: dhcpClassesDN
+m-may: dhcpOptionsDN
+m-may: dhcpStatements
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-must: cn
+m-must: dhcpPrimaryDN
+m-description: Service object that represents the actual DHCP Service configurat
+ ion. This is a container object.
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113719.1.203.6.1
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.255Z
+m-name: dhcpService
+entryParentId: 4deecfb6-1033-4917-a2a2-e8f2570b5d7c

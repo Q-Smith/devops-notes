@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.1.19,ou=attributeTypes,cn=nis,ou=schema
+entryCSN: 20210221034855.485000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: FALSE
+entryUUID: a9ad79ae-f23e-422d-b966-bca972c65f08
+m-equality: caseIgnoreIA5Match
+m-description: IP address
+m-obsolete: FALSE
+m-oid: 1.3.6.1.1.1.1.19
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034904.388Z
+m-name: ipHostNumber
+entryParentId: 46bf914f-4660-425f-91c6-eb88aec25c01

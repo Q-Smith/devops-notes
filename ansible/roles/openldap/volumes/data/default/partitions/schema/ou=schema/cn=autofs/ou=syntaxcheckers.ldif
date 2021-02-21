@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=autofs,ou=schema
+entryCSN: 20210221034854.074000Z#000000#000#000000
+ou: syntaxcheckers
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034902.448Z
+creatorsname: uid=admin,ou=system
+entryUUID: 30a7956d-c333-49ea-9edc-a9f52b7eec27
+entryParentId: 559ffa37-b855-43e7-9a37-4d1be7055f51

@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=2.16.840.1.113730.3.1.40,ou=attributeTypes,cn=inetorgperson,ou=schema
+entryCSN: 20210221034855.081000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.5
+m-singlevalue: FALSE
+entryUUID: 9f638d77-6c0f-4566-ae58-a8ff2e31ccc6
+m-description: RFC2798: PKCS#7 SignedData used to support S/MIME
+m-obsolete: FALSE
+m-oid: 2.16.840.1.113730.3.1.40
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.598Z
+m-name: userSMIMECertificate
+entryParentId: d7aa1647-bcaa-42ad-9a1f-8bb6a170e5da

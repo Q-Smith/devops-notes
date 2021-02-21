@@ -65,3 +65,15 @@ vi ~/.docker/daemon.json
     ]
 }
 ```
+
+# Volumes
+
+```bash
+vi ~/Library/Group\ Containers/group.com.docker/settings.json
+“filesharingDirectories” : [
+  “\/Users”,
+  “\/Volumes”,
+  “\/private”,
+  “\/tmp”
+],
+```

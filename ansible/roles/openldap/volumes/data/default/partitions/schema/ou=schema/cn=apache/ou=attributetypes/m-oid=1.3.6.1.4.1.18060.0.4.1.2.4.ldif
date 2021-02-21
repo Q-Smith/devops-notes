@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.4,ou=attributeTypes,cn=apache,ou=schema
+entryCSN: 20210221034853.130000Z#000000#000#000000
+m-usage: DSA_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: TRUE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: FALSE
+entryUUID: 483711b8-6bf2-44dc-a0a2-089878f566a8
+m-equality: integerMatch
+m-description: Index attribute used to track one level searches
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.4
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.842Z
+m-name: apacheOneLevel
+entryParentId: 745b58c2-27c2-4137-9067-cb8815eebf00

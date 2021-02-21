@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=2.5.17.0,ou=objectClasses,cn=system,ou=schema
+entryCSN: 20210221034856.380000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 6d3c9755-97c8-457b-b14f-6974d9799e0f
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: top
+m-must: cn
+m-must: subtreeSpecification
+m-obsolete: FALSE
+m-oid: 2.5.17.0
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034859.893Z
+m-name: subentry
+entryParentId: 25e63c3b-4cee-442d-90d5-22dc735166b2

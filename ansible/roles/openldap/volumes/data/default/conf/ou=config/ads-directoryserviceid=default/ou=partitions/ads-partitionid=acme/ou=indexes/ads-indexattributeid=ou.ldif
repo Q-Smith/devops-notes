@@ -1,0 +1,15 @@
+dn: ads-indexAttributeId=ou,ou=indexes,ads-partitionId=acme,ou=partitions,ads-di
+ rectoryServiceId=default,ou=config
+ads-indexHasReverse: FALSE
+entryCSN: 20210221034948.371000Z#000000#001#000000
+objectClass: ads-index
+objectClass: top
+objectClass: ads-jdbmIndex
+objectClass: ads-base
+createTimestamp: 20210221034948.371Z
+creatorsName:: MC45LjIzNDIuMTkyMDAzMDAuMTAwLjEuMT0gYWRtaW4gLDIuNS40LjExPSBzeXN0Z
+ W0g
+ads-indexAttributeId: ou
+ads-enabled: TRUE
+entryUUID: a2d0ccd7-ee29-41fe-8ce7-dc85ffe66636
+entryParentId: 7d4a8233-426a-4249-9503-d2d50fbf983e

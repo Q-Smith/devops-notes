@@ -1,0 +1,10 @@
+dn: ou=indexes,ads-partitionId=openmicroscopy,ou=partitions,ads-directoryService
+ Id=default,ou=config
+entryCSN: 20210221034851.484000Z#000000#000#000000
+ou: indexes
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034851.484Z
+creatorsName: uid=admin,ou=system
+entryUUID: cc06e368-2797-4011-b4c1-74dd3f7072ab
+entryParentId: 110461f6-e407-466b-a5dc-44fb1ebdd8cb

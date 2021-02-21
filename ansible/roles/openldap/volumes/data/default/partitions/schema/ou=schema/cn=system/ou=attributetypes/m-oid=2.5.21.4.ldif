@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.5.21.4,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20210221034856.168000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.30
+m-singlevalue: FALSE
+entryUUID: 3fa5a42a-c043-4e67-aafa-a8f8e8a6ab27
+m-equality: objectIdentifierFirstComponentMatch
+m-description: RFC2252: matching rules
+m-obsolete: FALSE
+m-oid: 2.5.21.4
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034900.324Z
+m-name: matchingRules
+entryParentId: 08f7ed2b-d78a-4237-8c23-4c7885a948dd

@@ -1,0 +1,17 @@
+dn: ads-authenticatorid=anonymousauthenticator,ou=authenticators,ads-interceptor
+ Id=authenticationInterceptor,ou=interceptors,ads-directoryServiceId=default,ou=
+ config
+entryCSN: 20210221034851.126000Z#000000#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-authenticator
+objectclass: ads-authenticatorImpl
+createTimestamp: 20210221034851.127Z
+ads-authenticatorid: anonymousauthenticator
+creatorsName: uid=admin,ou=system
+ads-basedn: ou=config
+ads-authenticatorclass: org.apache.directory.server.core.authn.AnonymousAuthenti
+ cator
+ads-enabled: TRUE
+entryUUID: 15269bfe-77e8-4ee8-94e4-2b34064ef334
+entryParentId: 2d7abf6f-cd70-42b0-8759-468975bd99db

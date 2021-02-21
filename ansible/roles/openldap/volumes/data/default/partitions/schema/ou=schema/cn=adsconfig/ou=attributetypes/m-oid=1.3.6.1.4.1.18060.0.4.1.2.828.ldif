@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.828,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.668000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-ordering: caseExactOrderingMatch
+entryUUID: ae738800-8d90-46c5-8dfd-46bb611191fa
+m-substr: caseIgnoreIA5SubstringsMatch
+m-equality: caseIgnoreIA5Match
+m-description: the attributes to be replicated
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.828
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.500Z
+m-name: ads-replAttributes
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

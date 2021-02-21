@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.1.21,ou=attributeTypes,cn=nis,ou=schema
+entryCSN: 20210221034855.496000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 7fccd57d-4050-400b-ac10-a76737a74291
+m-equality: caseIgnoreIA5Match
+m-description: IP netmask
+m-obsolete: FALSE
+m-oid: 1.3.6.1.1.1.1.21
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034900.672Z
+m-name: ipNetmaskNumber
+entryParentId: 46bf914f-4660-425f-91c6-eb88aec25c01

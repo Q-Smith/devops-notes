@@ -15,6 +15,17 @@ docker run -d --name jenkins-master -p 8080:8080 -p 53801:53801 -p 50000:50000 j
   - c90ccfac24504f35b7474403840d177e
 - Install suggested plugins
 
+# Keycloak
+
+- Install
+- Set ${KEYCLOAK_URL}/auth/realms/${REALM}/.well-known/openid-configuration
+http://keycloak.local:8080/auth/realms/devops/.well-known/openid-configuration
+preferred_username
+name
+email
+group-membership
+
+
 # API
 
 ## View

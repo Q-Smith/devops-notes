@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.8,ou=attributeTypes,cn=apache,ou=schema
+entryCSN: 20210221034853.175000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: TRUE
+entryUUID: d8346094-f875-46fe-b335-c3a09bee0ce8
+m-equality: caseExactMatch
+m-description: Attribute to describe the name of a Java Preferences API node
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.8
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034858.593Z
+m-name: prefNodeName
+entryParentId: 745b58c2-27c2-4137-9067-cb8815eebf00

@@ -1,0 +1,18 @@
+version: 1
+
+dn: ou=Users,dc=acme,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: Users
+
+dn: ou=Groups,dc=acme,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: Groups
+
+dn: uid=qsmith,ou=Users,dc=acme,dc=local
+objectClass: inetOrgPerson
+cn: Quinn
+sn: Smith
+uid: qsmith
+mail: quinnsmith@tsys.com

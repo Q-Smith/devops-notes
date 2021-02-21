@@ -1,0 +1,10 @@
+version: 1
+dn: ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.212000Z#000000#000#000000
+ou: attributetypes
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034859.080Z
+creatorsname: uid=admin,ou=system
+entryUUID: f6e54a6a-6d2f-4213-a5cd-84abccdc9789
+entryParentId: 7eaede5c-f625-453a-a591-7322958c7947

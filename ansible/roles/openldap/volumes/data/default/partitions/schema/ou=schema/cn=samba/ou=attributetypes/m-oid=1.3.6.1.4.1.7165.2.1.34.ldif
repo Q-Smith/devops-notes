@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.7165.2.1.34,ou=attributeTypes,cn=samba,ou=schema
+entryCSN: 20210221034855.956000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-singlevalue: TRUE
+entryUUID: ef7ed4fa-2cdc-45b7-8985-0552fa1fd6e1
+m-equality: caseIgnoreMatch
+m-description: Logon script path
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.7165.2.1.34
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20210221034900.170Z
+m-name: sambaLogonScript
+entryParentId: 2b0adeb8-0d55-4e2e-aa0a-42274ed36b3c

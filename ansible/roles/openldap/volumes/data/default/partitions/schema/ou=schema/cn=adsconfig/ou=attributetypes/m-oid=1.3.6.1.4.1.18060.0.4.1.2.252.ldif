@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.252,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.419000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.44
+m-singlevalue: TRUE
+m-ordering: caseExactOrderingMatch
+entryUUID: 673596d7-9090-4e19-abef-6d41568720d1
+m-substr: caseExactSubstringsMatch
+m-supattributetype: name
+m-equality: caseExactMatch
+m-description: a generic ID which can be used in any configuration entry DN
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.252
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20210221034901.609Z
+m-name: ads-Id
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

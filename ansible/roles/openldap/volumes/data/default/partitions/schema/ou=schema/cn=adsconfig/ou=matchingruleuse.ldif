@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRuleUse,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.234000Z#000000#000#000000
+ou: matchingruleuse
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034902.285Z
+creatorsname: uid=admin,ou=system
+entryUUID: 9fbd83a9-5060-41f5-8274-5c5b8aab07e4
+entryParentId: 7eaede5c-f625-453a-a591-7322958c7947

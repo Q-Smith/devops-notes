@@ -1,0 +1,10 @@
+version: 1
+dn: ou=normalizers,cn=samba,ou=schema
+entryCSN: 20210221034855.878000Z#000000#000#000000
+ou: normalizers
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034903.592Z
+creatorsname: uid=admin,ou=system
+entryUUID: a09531d6-5ba6-4e4b-a3c8-8c79da6d167e
+entryParentId: ad097365-2a8f-4a59-97fa-f14f18f76560

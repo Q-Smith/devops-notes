@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.4.1.12,ou=attributeTypes,cn=java,ou=schema
+entryCSN: 20210221034855.135000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: FALSE
+entryUUID: 65ca06bc-e6c3-456e-99a9-e4dcecc7572b
+m-equality: caseExactIA5Match
+m-description: The Java documentation for the class
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.42.2.27.4.1.12
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034902.661Z
+m-name: javaDoc
+entryParentId: e55073c6-994b-4cb5-bfe5-96e6b3f6de05

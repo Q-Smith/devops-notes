@@ -1,0 +1,10 @@
+version: 1
+dn: ou=objectClasses,cn=pwdpolicy,ou=schema
+entryCSN: 20210221034855.714000Z#000000#000#000000
+ou: objectClasses
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034858.453Z
+creatorsname: uid=admin,ou=system
+entryUUID: 19665999-20a1-42ef-b1c1-285ce27770d7
+entryParentId: a85c08aa-efdf-4c00-a086-659f30fd8c2e

@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=rfc2307bis,ou=schema
+entryCSN: 20210221034855.813000Z#000000#000#000000
+ou: syntaxcheckers
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20210221034903.128Z
+creatorsname: uid=admin,ou=system
+entryUUID: 1793081d-fadd-43ce-93b2-8b5d4fe957e0
+entryParentId: 136e7870-c220-48c0-a6a4-6712516de896

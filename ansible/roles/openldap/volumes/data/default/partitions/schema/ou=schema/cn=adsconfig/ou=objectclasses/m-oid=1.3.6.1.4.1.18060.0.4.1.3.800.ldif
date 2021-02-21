@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.800,ou=objectClasses,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.900000Z#000000#000#000000
+m-supobjectclass: ads-dsBasedServer
+m-description: The ChangePassword ObjectClass
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.800
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+createTimestamp: 20210221034901.933Z
+m-name: ads-changePasswordServer
+creatorsname: uid=admin,ou=system
+entryUUID: 5f23fb5e-c473-4c33-a11d-cfddeb1f290f
+entryParentId: 02819c1a-d88d-4c69-9e59-c6e945ecc18c

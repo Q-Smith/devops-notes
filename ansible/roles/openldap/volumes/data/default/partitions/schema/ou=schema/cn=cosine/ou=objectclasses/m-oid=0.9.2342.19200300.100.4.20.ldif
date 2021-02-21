@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=0.9.2342.19200300.100.4.20,ou=objectClasses,cn=cosine,ou=schema
+entryCSN: 20210221034854.714000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 019a4314-5d12-4b9e-a8cb-cf8d4d9a6242
+m-may: buildingName
+m-typeobjectclass: STRUCTURAL
+m-supobjectclass: organization
+m-supobjectclass: organizationalUnit
+m-obsolete: FALSE
+m-oid: 0.9.2342.19200300.100.4.20
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034903.610Z
+m-name: pilotOrganization
+entryParentId: 91d97213-46b0-4198-9db0-dc85a03dad21

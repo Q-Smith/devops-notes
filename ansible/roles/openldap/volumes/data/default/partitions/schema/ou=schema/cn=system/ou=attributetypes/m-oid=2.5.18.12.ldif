@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.5.18.12,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20210221034856.145000Z#000000#000#000000
+m-usage: DIRECTORY_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: TRUE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.12
+m-singlevalue: FALSE
+entryUUID: e5a7e472-0901-4d3b-9df2-9767c9af0e92
+m-equality: distinguishedNameMatch
+m-description: RFC3671: identifies all collective attribute subentries that affe
+ ct the entry
+m-obsolete: FALSE
+m-oid: 2.5.18.12
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034858.403Z
+m-name: collectiveAttributeSubentries
+entryParentId: 08f7ed2b-d78a-4237-8c23-4c7885a948dd

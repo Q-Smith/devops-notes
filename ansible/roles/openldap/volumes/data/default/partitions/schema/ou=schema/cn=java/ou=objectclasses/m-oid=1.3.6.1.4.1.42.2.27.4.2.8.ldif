@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.4.2.8,ou=objectClasses,cn=java,ou=schema
+entryCSN: 20210221034855.157000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 0f4dd7bc-398c-45c7-8e1e-4a5d664b905f
+m-typeobjectclass: AUXILIARY
+m-supobjectclass: javaObject
+m-must: javaSerializedData
+m-description: Java marshalled object
+m-oid: 1.3.6.1.4.1.42.2.27.4.2.8
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.967Z
+m-name: javaMarshalledObject
+entryParentId: b6db5586-7180-4550-8c81-d240e10b87ee

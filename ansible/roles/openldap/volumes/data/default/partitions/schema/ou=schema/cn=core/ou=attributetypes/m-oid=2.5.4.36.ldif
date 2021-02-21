@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.5.4.36,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.454000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.8
+m-singlevalue: FALSE
+entryUUID: 8552c6d1-cd44-49b0-8cb3-5bc0c8d287e5
+m-equality: certificateExactMatch
+m-description: X.509 user certificate
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 2.5.4.36
+createTimestamp: 20210221034904.160Z
+m-name: userCertificate
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

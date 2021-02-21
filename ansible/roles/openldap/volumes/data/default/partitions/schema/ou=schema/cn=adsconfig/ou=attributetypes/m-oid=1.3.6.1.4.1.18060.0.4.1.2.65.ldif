@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.65,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.536000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: 57a31121-0f4e-4cb0-9c23-20bd710820b7
+m-equality: booleanMatch
+m-description: Tells if the client auth is needed
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.65
+createTimestamp: 20210221034904.401Z
+m-name: ads-needClientAuth
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

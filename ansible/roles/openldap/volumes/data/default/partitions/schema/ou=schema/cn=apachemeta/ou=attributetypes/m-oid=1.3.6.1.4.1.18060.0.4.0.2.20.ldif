@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.2.20,ou=attributeTypes,cn=apachemeta,ou=schema
+entryCSN: 20210221034853.799000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.18060.0.4.0.0.4
+m-singlevalue: FALSE
+entryUUID: 984fa648-d7a5-4c5e-bdd1-3e42f6c5e8e9
+m-equality: ruleIdMatch
+m-description: The rule ID
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 1.3.6.1.4.1.18060.0.4.0.2.20
+createTimestamp: 20210221034903.080Z
+m-name: m-ruleId
+entryParentId: 24f978a0-627b-4221-9e7d-d8a5b3fbe41b

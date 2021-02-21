@@ -1,0 +1,20 @@
+---
+
+- name: Ensure Nexus Docker Volumes
+  community.docker.docker_volume:
+    name: nexus-data
+
+- name: Ensure Nexus Container
+  community.docker.docker_container:
+    name: nexus
+    hostname: nexus.local
+    image: sonatype/nexus3:latest
+    networks_cli_compatible: false
+    container_default_behavior: no_defaults
+    auto_remove: yes
+    networks:
+      - name: ops_tools_net
+    ports:
+      - '9030:8081' # Web UI
+    volumes:
+      - nexus-data:/nexus-data

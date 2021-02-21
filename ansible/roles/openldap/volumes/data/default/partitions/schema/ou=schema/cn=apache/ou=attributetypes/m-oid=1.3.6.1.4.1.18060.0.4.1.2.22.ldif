@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.22,ou=attributeTypes,cn=apache,ou=schema
+entryCSN: 20210221034853.076000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.5
+m-singlevalue: TRUE
+entryUUID: e8b80d08-9763-46b2-8c2f-033a456a69f3
+m-description: The actual byte code for a (Java) class
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.22
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.534Z
+m-name: javaClassByteCode
+entryParentId: 745b58c2-27c2-4137-9067-cb8815eebf00

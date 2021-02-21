@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.5.4.27,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.438000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.44
+m-singlevalue: FALSE
+entryUUID: 0a58606a-0ad9-4307-892e-7b8fbe9733e0
+m-substr: caseIgnoreSubstringsMatch
+m-equality: caseIgnoreMatch
+m-description: RFC2256: destination indicator
+m-obsolete: FALSE
+m-oid: 2.5.4.27
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034900.359Z
+m-name: destinationIndicator
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

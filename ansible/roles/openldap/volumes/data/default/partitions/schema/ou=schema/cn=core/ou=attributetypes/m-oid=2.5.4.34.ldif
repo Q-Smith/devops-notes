@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.5.4.34,ou=attributeTypes,cn=core,ou=schema
+entryCSN: 20210221034854.451000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.12
+m-singlevalue: FALSE
+entryUUID: c4718980-53ad-4ce9-b187-9a639790a2eb
+m-supattributetype: distinguishedName
+m-equality: distinguishedNameMatch
+m-description: RFC2256: DN of related object
+m-obsolete: FALSE
+m-oid: 2.5.4.34
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034900.118Z
+m-name: seeAlso
+entryParentId: c80bea6a-9bbd-40cc-9f57-d59829203160

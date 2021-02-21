@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.904,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.712000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-singlevalue: TRUE
+entryUUID: 52746f30-56f7-44c0-9395-3942a49951e2
+m-equality: integerMatch
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.904
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+createTimestamp: 20210221034902.084Z
+m-name: ads-pwdCheckQuality
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

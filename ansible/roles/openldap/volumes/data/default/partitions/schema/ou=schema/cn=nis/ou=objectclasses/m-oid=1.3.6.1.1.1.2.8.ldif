@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.1.1.2.8,ou=objectClasses,cn=nis,ou=schema
+entryCSN: 20210221034855.610000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: bb9324b1-1066-44f8-b269-5a155667813e
+m-may: nisNetgroupTriple
+m-may: memberNisNetgroup
+m-may: description
+m-supobjectclass: top
+m-must: cn
+m-description: Abstraction of a netgroup
+m-oid: 1.3.6.1.1.1.2.8
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034901.048Z
+m-name: nisNetgroup
+entryParentId: 96fbc11c-51ef-4f21-9233-8cf7a74e587b

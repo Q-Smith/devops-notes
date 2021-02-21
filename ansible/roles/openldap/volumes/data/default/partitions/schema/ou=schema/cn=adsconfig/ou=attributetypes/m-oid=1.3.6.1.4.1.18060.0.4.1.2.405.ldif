@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.405,ou=attributeTypes,cn=adsconfig,ou=schema
+entryCSN: 20210221034852.487000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+m-length: 0
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-singlevalue: TRUE
+entryUUID: 0ab3896b-549e-4647-97dd-76b54b8ba48c
+m-equality: booleanMatch
+m-description: Whether postdated tickets are allowed
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.405
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+createTimestamp: 20210221034904.254Z
+m-name: ads-krbPostdatedAllowed
+entryParentId: f6e54a6a-6d2f-4213-a5cd-84abccdc9789

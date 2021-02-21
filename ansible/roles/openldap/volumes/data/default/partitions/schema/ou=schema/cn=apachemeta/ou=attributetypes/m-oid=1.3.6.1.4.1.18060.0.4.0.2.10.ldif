@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.2.10,ou=attributeTypes,cn=apachemeta,ou=schema
+entryCSN: 20210221034853.772000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.38
+m-singlevalue: TRUE
+entryUUID: 6ad4aed3-4714-45aa-a15b-579be9d8bba2
+m-equality: nameOrNumericIdMatch
+m-description: The list of superior
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+m-oid: 1.3.6.1.4.1.18060.0.4.0.2.10
+createTimestamp: 20210221034900.162Z
+m-name: m-supAttributeType
+entryParentId: 24f978a0-627b-4221-9e7d-d8a5b3fbe41b

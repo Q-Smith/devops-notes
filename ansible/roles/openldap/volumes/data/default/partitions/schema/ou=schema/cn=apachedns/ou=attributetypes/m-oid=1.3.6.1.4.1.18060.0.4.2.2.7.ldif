@@ -1,0 +1,22 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.2.2.7,ou=attributeTypes,cn=apachedns,ou=schema
+entryCSN: 20210221034853.556000Z#000000#000#000000
+m-usage: USER_APPLICATIONS
+creatorsname: uid=admin,ou=system
+m-collective: FALSE
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-singlevalue: TRUE
+entryUUID: 64a0de43-359f-4f9d-aaef-526b52eaacd0
+m-supattributetype: apacheDnsDomainName
+m-equality: caseIgnoreIA5Match
+m-description: The domain name which specifies the mailbox of the person respons
+ ible for this zone
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.18060.0.4.2.2.7
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034859.116Z
+m-name: apacheDnsSoaRName
+entryParentId: b4009daa-7a99-41a1-9c71-56ee0e1da344

@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=2.5.6.22,ou=objectClasses,cn=core,ou=schema
+entryCSN: 20210221034854.553000Z#000000#000#000000
+creatorsname: uid=admin,ou=system
+entryUUID: 26e3460c-931b-4f93-b020-78cbb5fe2585
+m-may: cACertificate
+m-may: certificateRevocationList
+m-may: authorityRevocationList
+m-may: crossCertificatePair
+m-typeobjectclass: AUXILIARY
+m-supobjectclass: top
+m-description: X.509 PKI Certificate Authority
+m-obsolete: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+m-oid: 2.5.6.22
+createTimestamp: 20210221034902.169Z
+m-name: pkiCA
+entryParentId: 12e97e71-93f9-4995-9673-af98b8e63af3

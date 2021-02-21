@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.101.120.13,ou=attributeTypes,cn=system,ou=schema
+entryCSN: 20210221034856.124000Z#000000#000#000000
+m-usage: DSA_OPERATION
+m-collective: FALSE
+creatorsname: uid=admin,ou=system
+m-nousermodification: FALSE
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.38
+m-singlevalue: FALSE
+entryUUID: 6cd77222-4f9b-4162-a016-8aa29536ca8b
+m-description: RFC2252: supported controls
+m-obsolete: FALSE
+m-oid: 1.3.6.1.4.1.1466.101.120.13
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+createTimestamp: 20210221034859.818Z
+m-name: supportedControl
+entryParentId: 08f7ed2b-d78a-4237-8c23-4c7885a948dd
