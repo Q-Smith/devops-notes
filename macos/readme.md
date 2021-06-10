@@ -11,3 +11,15 @@ sudo kill -9 <PID>
 ```bash
 sudo tcpdump -i en0 -w trace.pcap
 ```
+
+# Remote Desktop (CTRL+ALT+DEL)
+
+```bash
+FN + CTRL + ATL (Option) + DEL
+```
+
+# Grep -oP
+
+```bash
+perl -nle 'print $& while m{<version>(.*)</version>}g' pom.xml
+```

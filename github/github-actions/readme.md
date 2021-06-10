@@ -12,31 +12,85 @@ export DOTNET_SYSTEM_NET_HTTP_USESOCKETSHTTPHANDLER=0
   curl -i \
     -H "User-Agent: Astro" \
     -H "Accept: application/vnd.github.machine-man-preview+json" \
-    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTM1Mzg4MjIsImlhdCI6MTYxMzUzODUyMiwiaXNzIjoiMSJ9.z0V1B3zGZTJgK49jbJ75srmQC02vkcNZYbGnwzXAU8eWO_P0dRbK0KS6XUYm3GA47Kqxojv5PRv5kfzu9GqERsK_WioE3pc_esr6MK8aurCPu8noYwjXvVT6sNIDhuTEEZ5mAIenIEmdlgZ5hiV1KMVagQgS5kMsCwkOWLqwJKLdjAENs83HB_FmWerSpuY82wF9WMYgqT0YkF-PzpyksV1Y_tBKMA17dVHyyMIUUiwozjP4iVe4DanIXef9Qhk7PezyrfrhdG8IRWg-djloSV0WHRMeLc1no1bkhKbMy8scxGJjDmjtj2BaiTcd7j3jPTb8WnTUq5W-8I-8c6lT9w" \
+    -H "Authorization: Bearer <bearer>" \
     https://github.globalpay.com/api/v3/app/installations
   curl -i \
     -H "User-Agent: Astro" \
     -H "Accept: application/vnd.github.machine-man-preview+json" \
-    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTM1Mzg4MjIsImlhdCI6MTYxMzUzODUyMiwiaXNzIjoiMSJ9.z0V1B3zGZTJgK49jbJ75srmQC02vkcNZYbGnwzXAU8eWO_P0dRbK0KS6XUYm3GA47Kqxojv5PRv5kfzu9GqERsK_WioE3pc_esr6MK8aurCPu8noYwjXvVT6sNIDhuTEEZ5mAIenIEmdlgZ5hiV1KMVagQgS5kMsCwkOWLqwJKLdjAENs83HB_FmWerSpuY82wF9WMYgqT0YkF-PzpyksV1Y_tBKMA17dVHyyMIUUiwozjP4iVe4DanIXef9Qhk7PezyrfrhdG8IRWg-djloSV0WHRMeLc1no1bkhKbMy8scxGJjDmjtj2BaiTcd7j3jPTb8WnTUq5W-8I-8c6lT9w" \
-    -d '{"repositories":["incubating-todo-webapi-go"]}' \
+    -H "Authorization: Bearer <bearer>" \
+    -d '{"repositories":["incubating-todo-webapi-go", "astro-demo-java-maven", "actions-cache"]}' \
     https://github.globalpay.com/api/v3/app/installations/1/access_tokens
   curl -i \
     -H "User-Agent: Astro" \
     -H "Accept: application/vnd.github.machine-man-preview+json" \
-    -H "Authorization: token v1.84521b2683a15a7f856b84557698eac9415a8bff" \
+    -H "Authorization: token v1.abcdef" \
     https://github.globalpay.com/api/v3/installation/repositories
+  curl -i \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.machine-man-preview+json" \
+    -H "Authorization: token v1.abcdef" \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/incubating-todo-webapi-go/git/trees/d261076620a1f323ca8ecfd781f6c0a0cecba5b1
+
+
+  curl -i \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token v1.abcdef" \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/astro-demo-java-maven/commits/a87dc57cd0ba323fe80a109f7137e2220011e9c7/check-suites
+  curl -i \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token v1.abcdef" \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/astro-demo-java-maven/check-suites/51
+  curl -i \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token v1.abcdef" \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/astro-demo-java-maven/check-runs/1
+  curl -i \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token v1.abcdef" \
+    -d '{"name":"ci job", "status":"in_progress", "head_sha":"209d702fb8698e52c979a1c6ab017ec07a068344"}' \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/astro-demo-java-maven/check-runs
+  curl -i \
+    -X PATCH \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token v1.abcdef" \
+    -d '{"name":"ci job", "head_sha":"209d702fb8698e52c979a1c6ab017ec07a068344", "status":"completed","conclusion":"success", "output":{"title":"some title","summary":"some summary","text":"some text","completed_at":"2021-04-21T04:12:07Z"}' \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/astro-demo-java-maven/check-runs/5
+
+  # WARNING: Commit Statuses are Immutable
+  curl -i \
+    -H "User-Agent: Astro" \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token v1.abcdef" \
+    -d '{"context":"astro","state":"success", "description":"master desc"}' \
+    https://github.globalpay.com/api/v3/repos/QuinnSmith/astro-demo-java-maven/statuses/d3cf61320a8de96f3550a91c7fb67c6d53db9cac
+
 
   curl -i \
     -H "Accept: application/vnd.github.v3+json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE2MTI5Njg3MjgsImlhdCI6MTYxMjk2ODQyOCwiaXNzIjoxfQ.gdJQ2MdfMZHfkkQnM-pppD5bYS71Ffyi3jtQwPzfzbmKxZKWzRk-Q2f1DxAq0z12xqeUj7vdC1mO6l7NgExjVMqjT1zs5RmsLQsjyYP2roWXxh_EKaS6UTsFpxrdY5kaMVpN9RJ0KRORlasf5o8dIWuCoBDMUKjZHVxrjSEAjVC-Z5yvudUC9ap7YZCr32v0Wlchd_PaOwOruXjKtyvHXzaey9XS7oA8R4jcnPT3gwd0vWij8hD4wy6tdO1c-VxaWkgQCCwrU4SBIpU8F_z30g0fvuVsia53U4h7Kpl6eT69ai9rOvdc7NMBjbhvcAn27VEoiNKIPvg7cpqnKF5cLA" \
+    -H "Authorization: Bearer <bearer>" \
     https://api.github.com/app/installations
   curl -i \
     -H "Accept: application/vnd.github.v3+json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE2MTI5Njg1NTYsImlhdCI6MTYxMjk2ODI1NiwiaXNzIjo5NjUyMH0.yAFCmM7dibyAvlXvM4qhk6vXIK8T3JDSuLZUocp_LCQfCFek4IaQTuKUKZB0g1-glgm531WWV9lb19X_eLXS8s4GR2VT_zZuQ1Z5PCAVb1qjLCPdfhD6zysO4o-pkLrCA_k153ShjpJ_RQPvadb01EnWFW9PP4eEy67W_bwuYFT9jULvdJTAZPaU_KSxdKUSVi43BAfFE4_ZmGGgUnh5yDLUDgZX3zHLPBEFRLUAKEs73UPVnyTW-hUnaoV7NNS5tfnktP9s4EpWcj3HVa8EWgiMDpZPlXZtuZ6gC_izRngqRx6lkvw9XgrvA2pOdPNLWy9yeV0mShmiGzHrYD_U4w" \
+    -H "Authorization: Bearer <bearer>" \
     -d '{"repositories":["todo-webapi-go"]}' \
     https://api.github.com/app/installations/14122601/access_tokens
   curl -i \
     -H "Accept: application/vnd.github.v3+json" \
-    -H "Authorization: token v1.480fb0fd4cc1fde7e887061ac79b56959a84dd35" \
+    -H "Authorization: token ghs_abcdef" \
     https://api.github.com/installation/repositories
+  curl -i \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token ghs_abcdef" \
+    https://api.github.com/repos/Q-Smith/todo-webapi-go/actions/secrets/AWS_KEY
 ```
+
+# References
+
+https://github.blog/2021-03-04-4-things-you-didnt-know-you-could-do-with-github-actions/
+https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/
+https://docs.github.com/en/enterprise-server@3.0/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme

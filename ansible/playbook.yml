@@ -6,5 +6,5 @@
     - docker
     - openldap
     - keycloak
-    #- jenkins
-    #- nexus
+    - nexus
+    - jenkins

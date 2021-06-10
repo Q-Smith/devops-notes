@@ -74,6 +74,14 @@ vi ~/Library/Group\ Containers/group.com.docker/settings.json
   “\/Users”,
   “\/Volumes”,
   “\/private”,
-  “\/tmp”
+  “\/tmp”,
+  “\/gpn”
 ],
 ```
+
+# References
+
+https://github.com/jessfraz/dockerfiles
+https://github.com/HariSekhon/Dockerfiles#full-inventory
+https://github.com/docker/awesome-compose
+

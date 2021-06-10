@@ -1,9 +1,5 @@
 ---
 
-- name: Ensure Jenkins Docker Volumes
-  community.docker.docker_volume:
-    name: jenkins-data
-
 - name: Ensure Jenkins Container
   community.docker.docker_container:
     name: jenkins-master
@@ -20,6 +16,6 @@
       - '53801:53801' # Random SSH Port
     volumes:
       #- jenkins-docker-certs:/certs/client
-      - jenkins-data:/var/jenkins_home
+      - ./roles/jenkins/volumes/data/:/var/jenkins_home
     env:
       JENKINS_OPTS: '--httpPort=9020'
