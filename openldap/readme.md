@@ -1,5 +1,6 @@
 # Notes
 
+```bash
 ldapsearch -x -H ldap://localhost:10389 -b "dc=acme,dc=local" -D "uid=admin,ou=system" -w secret
 ldapsearch -x -H ldap://localhost:10389 -b "uid=qsmith,ou=Users,dc=acme,dc=local" -D "uid=admin,ou=system" -w secret
 ldapadd -v -h localhost:10389 -c -x -D uid=admin,ou=system -w secret -f ~/_QSmith/Data/openldap/config/acme.ldif
@@ -7,6 +8,7 @@ ldapadd -v -h localhost:10389 -c -x -D uid=admin,ou=system -w secret -f ~/_QSmit
 sed -i '' -e "s/openmicroscopy/acme/g" ome.ldif ./conf/config.ldif ./conf/ads-contextentry.decoded
 sed -i '' -e "s/dc=org/dc=local/g" ./ome.ldif ./conf/config.ldif ./conf/ads-contextentry.decoded
 sed -i '' -e "s/dc: org/dc: local/g" ./ome.ldif ./conf/config.ldif ./conf/ads-contextentry.decoded
+```
 
 # Docker
 
@@ -21,7 +23,7 @@ docker run -d --rm --name ldap \
 	-e LDAP_ADMIN_PASSWORD="admin" \
   osixia/openldap
 
-docker cp ~/_Projects/GPN/astro-ops/artifacts/openldap/config/acme.ldif ldap:/tmp/acme.ldif
+docker cp ~/_Projects/Personal/artifacts/openldap/config/acme.ldif ldap:/tmp/acme.ldif
 docker exec ldap ldapadd -v -x -H ldap://localhost -D "cn=admin,dc=acme,dc=local" -w admin -f /tmp/acme.ldif
 docker exec ldap ldapsearch -v -x -H ldap://localhost -D "cn=admin,dc=acme,dc=local" -w admin -b "dc=acme,dc=local"
 ```
