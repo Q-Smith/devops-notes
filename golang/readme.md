@@ -147,6 +147,7 @@ replace github.com/q-smith/auto-apex-libs => ../incubating-apex-libraries
 ## Helm
 
 - https://github.com/arttor/helmify
+- https://github.com/Coveros/Genoa
 
 ## Kubernetes
 
