@@ -2,6 +2,7 @@
 
 ```bash
 dig +short myip.opendns.com @resolver1.opendns.com
+dig +trace +question +additional dev.ops.com A
 ```
 
 # RPM
