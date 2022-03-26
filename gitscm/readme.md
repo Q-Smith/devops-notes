@@ -40,9 +40,9 @@ git push
 
 # Git Commands to Find Build Failure (git bisect)
 
-http://lifuzu.com/blog/2015/06/02/using-git-command-to-find-build-failure-very-quickly/
+- http://lifuzu.com/blog/2015/06/02/using-git-command-to-find-build-failure-very-quickly/
 
 # Other Notes
 
-https://github.com/github/platform-samples/tree/master/scripts
-https://docs.github.com/en/enterprise-server@2.22/admin/policies/creating-a-pre-receive-hook-script
+- https://github.com/github/platform-samples/tree/master/scripts
+- https://docs.github.com/en/enterprise-server@2.22/admin/policies/creating-a-pre-receive-hook-script
