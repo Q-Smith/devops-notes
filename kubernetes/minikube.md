@@ -28,7 +28,7 @@ kubectl get pods
 kubectl describe pod jenkins-7ff8998f79-ghw2h
 kubectl exec --stdin --tty jenkins-7ff8998f79-ghw2h -- /bin/bash
 kubectl cp /path/to/your_folder name-of-your-pod:/path/to/destination_folder
-kubectl cp ./bin/astro-cli jenkins-7ff8998f79-ghw2h:/var/jenkins_home/astro/
+kubectl cp ./bin/tools-cli jenkins-7ff8998f79-ghw2h:/var/jenkins_home/tools/
 ```
 
 # Socat (to enable pushing to Registry)
