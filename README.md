@@ -16,6 +16,8 @@ General Notebook about DevOps and CI/CD
 
 # Research Lines
 
+- https://github.com/brunowego/cookbooks
+
 - https://zetcode.com/all/
 - http://www.scmgalaxy.com/tutorials/complete-guide-to-use-jenkins-cli-command-line/
 
