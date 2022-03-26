@@ -1,14 +1,20 @@
 # Setup
 
 ```bash
-minikube start --cpus 4 --memory=6000 --disk-size 15G --vm true --insecure-registry
+minikube start --cpus=4 --memory=4056mb --disk-size=15G --vm=true --insecure-registry --kubernetes-version=1.20.10
 minikube ip
+minikube addons list
 minikube addons enable registry
 minikube addons enable metrics-server
 minikube addons enable dashboard
 minikube addons enable ingress
-minikube addons list
+
+minikube tunnel
 minikube dashboard
+minikube dashboard --url
+minikube status
+minikube ssh
+
 kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-minikube --type=NodePort --port=8080
 minikube service hello-minikube
