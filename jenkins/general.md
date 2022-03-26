@@ -112,13 +112,13 @@ stage('Dump Credentials') {
 
 # References
 
-https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-setup-with-docker-and-jenkins-configuration-as-code
-https://www.praqma.com/stories/start-jenkins-config-as-code/
-https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos
-https://support.cloudbees.com/hc/en-us/articles/115000105752-how-do-i-setup-okta-as-identity-provider-in-jenkins-
-https://medium.com/@alexshulyak/helm-ed-jenkins-for-k8s-in-details-6b286a3a894f
-https://dev.to/setevoy/jenkins-saml-okta-user-groups-and-role-based-security-plugin-3mfj
-https://www.jasonmars.org/2020/04/21/deploy-jenkins-service-in-kubernetes-quick/
-https://technologists.dev/posts/cjd-casc/
-https://technologists.dev/posts/tekton-jx-pipelines/
-https://technologists.dev/posts/windows-containers/
+- https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-setup-with-docker-and-jenkins-configuration-as-code
+- https://www.praqma.com/stories/start-jenkins-config-as-code/
+- https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos
+- https://support.cloudbees.com/hc/en-us/articles/115000105752-how-do-i-setup-okta-as-identity-provider-in-jenkins-
+- https://medium.com/@alexshulyak/helm-ed-jenkins-for-k8s-in-details-6b286a3a894f
+- https://dev.to/setevoy/jenkins-saml-okta-user-groups-and-role-based-security-plugin-3mfj
+- https://www.jasonmars.org/2020/04/21/deploy-jenkins-service-in-kubernetes-quick/
+- https://technologists.dev/posts/cjd-casc/
+- https://technologists.dev/posts/tekton-jx-pipelines/
+- https://technologists.dev/posts/windows-containers/
