@@ -1,6 +1,10 @@
 # Installing OSS
 
 ```bash
+curl -fL https://install-cli.jfrog.io | sh https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory
+```
+
+```bash
 docker pull releases-docker.jfrog.io/jfrog/artifactory-oss:latest
 docker tag releases-docker.jfrog.io/jfrog/artifactory-oss:latest localhost:5000/jfrog
 docker push localhost:5000/jfrog
@@ -50,14 +54,15 @@ curl -vv -H "X-JFrog-Art-Api:<redacted>" -X GET "https://<redacted>/artifactory/
 
 curl -vv -H "X-JFrog-Art-Api:<redacted>" -O https://<redacted>/artifactory/libs-snapshot/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0-javadoc.jar
 
-curl -vv -H "X-JFrog-Art-Api:<redacted>" --upload-file "./target/astro-demo-maven-1.0.0.jar" https://<redacted>/artifactory/libs-snapshot-local/com/demo/astro/astro-demo-maven-1.0.0.jar
+curl -vv -H "X-JFrog-Art-Api:<redacted>" --upload-file "./target/demo-maven-1.0.0.jar" https://<redacted>/artifactory/libs-snapshot-local/com/demo/demo-maven-1.0.0.jar
 ```
 
 # CLI
 
 ```bash
-curl -fL https://getcli.jfrog.io | sh
+curl -fL https://install-cli.jfrog.io | sh https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory
 chmod +x ./jfrog
+
 ./jfrog config remove artifactory --quiet
 if ! grep -q cibuild "/var/jenkins_home/.jfrog/jfrog-cli.conf.v5"; then
   ./jfrog config add artifactory --interactive=false --user=cibuild --artifactory-url=https://artifactory.redacted.com/artifactory --apikey=<key>
@@ -65,7 +70,7 @@ fi
 ./jfrog config show
 ./jfrog config use artifactory
 ./jfrog rt ping
-./jfrog rt u target/astro-demo-maven-1.0.0.jar libs-snapshot-local/com/demo/astro/
+./jfrog rt u target/demo-maven-1.0.0.jar libs-snapshot-local/com/demo/
 ./jfrog rt dl "libs-snapshot/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar"
 ls -al ~/.jfrog
 ls -al
@@ -99,8 +104,8 @@ jfrog rt bpr my-build-name 18 target-repository
 cat <<EOF > .jfrog_spec_ul.json
 {"files": [
   {
-    "pattern": "$WORKSPACE/$GIT_OWNER/$GIT_REPO/target/astro-demo-maven-1.0.0.jar",
-    "target": "libs-snapshot-local/com/demo2/astro/"
+    "pattern": "$WORKSPACE/$GIT_OWNER/$GIT_REPO/target/demo-maven-1.0.0.jar",
+    "target": "libs-snapshot-local/com/demo2/"
   }
 ]}
 EOF
@@ -109,39 +114,39 @@ EOF
 # Repositories / Registries
 
 ## Package Formats
-alpine
-bower
-cargo
-chef
-cocoapods
-conan
-conda
-CRAN
-debian
-docker
-Git LFS
-go
-gradle
-helm
-maven
-npm
-nuget
-opkg
-P2
-PHP
-puppet
-pypi
-rpm
-rubygems
-sbt
-vagrant
-vcs
+- alpine
+- bower
+- cargo
+- chef
+- cocoapods
+- conan
+- conda
+- CRAN
+- debian
+- docker
+- Git LFS
+- go
+- gradle
+- helm
+- maven
+- npm
+- nuget
+- opkg
+- P2
+- PHP
+- puppet
+- pypi
+- rpm
+- rubygems
+- sbt
+- vagrant
+- vcs
 
 # References
 
-https://www.jfrog.com/confluence/display/CLI/JFrog+CLI
-https://www.jfrog.com/confluence/pages/viewpage.action?pageId=51187805#JFrogCLI-DownloadingFiles
-https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API
-https://jfrog.com/blog/use-file-specs-in-your-cicd-to-get-full-control-of-your-artifacts/
-https://github.com/jfrog/jfrog-cli-plugins/tree/main/build-report
-https://github.com/jfrog/jfrog-integrations/blob/master/sonarqube/artifactory/artifactory-sonar.sh
+- https://www.jfrog.com/confluence/display/CLI/JFrog+CLI
+- https://www.jfrog.com/confluence/pages/viewpage.action?pageId=51187805#JFrogCLI-DownloadingFiles
+- https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API
+- https://jfrog.com/blog/use-file-specs-in-your-cicd-to-get-full-control-of-your-artifacts/
+- https://github.com/jfrog/jfrog-cli-plugins/tree/main/build-report
+- https://github.com/jfrog/jfrog-integrations/blob/master/sonarqube/artifactory/artifactory-sonar.sh
