@@ -27,13 +27,13 @@ countryName         = US
 localityName        = Atlanta
 stateOrProvinceName = Georgia
 organizationName    = ACME Inc.
-commonName          = astro-np.ops.acme.com
+commonName          = dev.ops.acme.com
 
 [ req_ext ]
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1  = astro-np.ops.gpp.cloud
+DNS.1  = dev.ops.gpp.cloud
 ```
 
 # References
