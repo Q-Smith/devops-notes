@@ -67,14 +67,14 @@ Main Roles
 
 # Reference
 
-https://www.conftest.dev/examples/
-https://gkesecurity.guide/cluster_configuration/
-https://kubernetes.io/docs/reference/kubectl/cheatsheet/
-https://github.com/ahmetb/kubernetes-network-policy-recipes/
-https://github.com/GoogleCloudPlatform/kubernetes-engine-samples
-https://github.com/GoogleCloudPlatform/golang-samples
-https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+- https://www.conftest.dev/examples/
+- https://gkesecurity.guide/cluster_configuration/
+- https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+- https://github.com/ahmetb/kubernetes-network-policy-recipes/
+- https://github.com/GoogleCloudPlatform/kubernetes-engine-samples
+- https://github.com/GoogleCloudPlatform/golang-samples
+- https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
 
-https://github.com/arashkaffamanesh/practical-kubernetes-problems
-https://github.com/arashkaffamanesh/multipass-rke-rancher
-https://github.com/kubernauts/bonsai
+- https://github.com/arashkaffamanesh/practical-kubernetes-problems
+- https://github.com/arashkaffamanesh/multipass-rke-rancher
+- https://github.com/kubernauts/bonsai
