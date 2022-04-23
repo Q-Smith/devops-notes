@@ -1,6 +1,7 @@
 # Configurations
 
 ```bash
+> git config --list --show-origin
 > git config push.followTags true
 ```
 
