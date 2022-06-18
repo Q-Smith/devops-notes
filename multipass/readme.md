@@ -20,8 +20,8 @@ sudo apt install -y make gcc g++
 ### [Golang]
 
 ```bash
-curl -sSLO https://go.dev/dl/go1.17.7.linux-amd64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.17.7.linux-amd64.tar.gz
+curl -sSLO https://go.dev/dl/go1.18.3.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 ```
 
@@ -59,8 +59,8 @@ sudo usermod -aG docker $USER
 
 ```bash
 sudo apt-get install -y uidmap
-curl -sSLO https://github.com/containerd/nerdctl/releases/download/v0.17.0/nerdctl-full-0.17.0-linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf nerdctl-full-0.17.0-linux-amd64.tar.gz
+curl -sSLO https://github.com/containerd/nerdctl/releases/download/v0.20.0/nerdctl-full-0.20.0-linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf nerdctl-full-0.20.0-linux-amd64.tar.gz
 containerd-rootless-setuptool.sh install
 containerd-rootless-setuptool.sh install-buildkit
 ```
