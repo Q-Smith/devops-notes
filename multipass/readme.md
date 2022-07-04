@@ -30,7 +30,7 @@ sudo apt-get install -y sqlite3
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 
-sudo apt-get install -y python3.10-full
+sudo apt-get install -y python3.10-full python3.10-dev
 sudo apt-get install -y python3-apt
 
 curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
@@ -46,9 +46,10 @@ Error: No module named 'apt_pkg'
 > cd /usr/lib/python3/dist-packages
 > sudo ln -s apt_pkg.cpython-38-aarch64-linux-gnu.so apt_pkg.so
 
-Error: aarch64-linux-gnu-gcc' failed with exit code 1
-> export CPPFLAGS="-Wno-write-strings"
-> pip3 install duckdb
+Error: aarch64-linux-gnu-gcc' Python.h: No such file or directory
+> sudo apt-get install -y python3.10-dev
+> export CPPFLAGS="-Wno-write-strings -I/usr/include/python3.10"
+> pip3 install duckdb==0.3.4
 ```
 
 ### [Golang]
