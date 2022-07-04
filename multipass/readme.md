@@ -14,7 +14,22 @@ multipass purge
 ```bash
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt install -y make gcc g++
+sudo apt install -y build-essential
+```
+
+### [Python]
+
+```bash
+sudo apt-get install -y python3.9-full
+
+sudo apt-get install -y python3-pip
+python3 -m pip install --upgrade pip
+
+sudo update-alternatives --list python3
+sudo update-alternatives --config python3
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
 ```
 
 ### [Golang]
@@ -23,6 +38,16 @@ sudo apt install -y make gcc g++
 curl -sSLO https://go.dev/dl/go1.18.3.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
+```
+
+### [Java]
+
+```bash
+sudo apt-get install -y openjdk-8-jdk
+sudo apt-get install -y openjdk-17-jdk
+
+sudo update-alternatives --list java
+sudo update-alternatives --config java
 ```
 
 ### [Helm]
