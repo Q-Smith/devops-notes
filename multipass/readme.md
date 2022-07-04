@@ -14,7 +14,9 @@ multipass purge
 ```bash
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt install -y software-properties-common build-essential autoconf libtool pkg-config unzip cmake
+sudo apt install -y \
+  software-properties-common build-essential \
+  libtool autoconf pkg-config libffi-dev libssl-dev libsasl2-dev unzip cmake
 ```
 
 ### [SQLite]
@@ -43,6 +45,10 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 
 Error: No module named 'apt_pkg'
 > cd /usr/lib/python3/dist-packages
 > sudo ln -s apt_pkg.cpython-38-aarch64-linux-gnu.so apt_pkg.so
+
+Error: aarch64-linux-gnu-gcc' failed with exit code 1
+> export CPPFLAGS="-Wno-write-strings"
+> pip3 install duckdb
 ```
 
 ### [Golang]
