@@ -14,22 +14,35 @@ multipass purge
 ```bash
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt install -y build-essential
+sudo apt install -y software-properties-common build-essential autoconf libtool pkg-config unzip cmake
+```
+
+### [SQLite]
+
+```bash
+sudo apt-get install -y sqlite3
 ```
 
 ### [Python]
 
 ```bash
-sudo apt-get install -y python3.9-full
+sudo add-apt-repository ppa:deadsnakes/ppa
 
-sudo apt-get install -y python3-pip
+sudo apt-get install -y python3.10-full
+sudo apt-get install -y python3-apt
+
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
 python3 -m pip install --upgrade pip
 
 sudo update-alternatives --list python3
 sudo update-alternatives --config python3
 
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
+
+Error: No module named 'apt_pkg'
+> cd /usr/lib/python3/dist-packages
+> sudo ln -s apt_pkg.cpython-38-aarch64-linux-gnu.so apt_pkg.so
 ```
 
 ### [Golang]
