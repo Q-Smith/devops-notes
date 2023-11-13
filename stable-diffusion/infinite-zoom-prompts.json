@@ -1,0 +1,69 @@
+{
+  "prompts": {
+    "data": [
+      [
+        0,
+        "a medieval church perched on a hill, its intricate stained glass windows catching the soft, golden light of the setting sun"
+      ],
+      [
+        "1",
+        "the church's ornate wooden door, revealing the detailed carvings of saints and biblical scenes."
+      ],
+      [
+        "2",
+        "interior of the church, focusing on the majestic altar with flickering candles and a centuries-old Bible."
+      ],
+      [
+        "3",
+        "the Bible, revealing the beautifully illuminated manuscript pages with intricate calligraphy and illustrations."
+      ],
+      [
+        "4",
+        "the illustrations, showcasing a medieval knight with a shield"
+      ],
+      [
+        "5",
+        "a waterfall cascading down a rocky cliff, the water glistening in the dappled sunlight."
+      ],
+      [
+        "6",
+        "moss-covered rocks are surrounded by lush ferns and wildflowers."
+      ],
+      [
+        "7",
+        "a single dewdrop hanging from a leaf, reflecting the surrounding greenery."
+      ],
+      [
+        "8",
+        " an ancient oak tree in the heart of a mystical forest, its gnarled branches reaching for the sky"
+      ],
+      [
+        "9",
+        " the intricate patterns of moss and lichen growing on the oak's weathered bark."
+      ],
+      [
+        "10",
+        "a hidden hollow within the tree's trunk, revealing a family of owls nesting."
+      ],
+      [
+        "11",
+        "a dense jungle, where vibrant parrots and toucans flit through the emerald canopy."
+      ],
+      [
+        "12",
+        " closer to the jungle floor, where exotic flowers bloom and a colorful poison dart frog makes its home"
+      ],
+      [
+        "13",
+        "jungle with mountain range, its snow-capped peaks piercing the azure sky."
+      ]
+    ],
+    "headers": [
+      "Start at second [0,1,...]",
+      "Prompt"
+    ]
+  },
+  "negPrompt": " BadDream, watermark",
+  "prePrompt": "digital photography, ultra realistic, 8K",
+  "postPrompt": ""
+}
